@@ -2,6 +2,7 @@ import os
 import re
 import pdfplumber
 from datetime import datetime
+from datetime import datetime
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
@@ -21,6 +22,7 @@ def process_receipts(directory_path):
             
             amount = "Not Found"
             date = "Not Found"
+            date = "Not Found"
             source = "Not Found"
             destination = "Not Found"
             
@@ -39,9 +41,14 @@ def process_receipts(directory_path):
                     
                     # Extract Date, Source, and Destination
                     address_pattern = r"([A-Z]{3,9}\s+\d{1,2}(?:st|nd|rd|th)?\s+\d{4},\s*\d{1,2}:\d{2}\s*(?:AM|PM)?)\s+(.*?\d{6}(?:,\s*India)?)\s+(.*?\d{6}(?:,\s*India)?)\s+This document is issued"
+                    # Extract Date, Source, and Destination
+                    address_pattern = r"([A-Z]{3,9}\s+\d{1,2}(?:st|nd|rd|th)?\s+\d{4},\s*\d{1,2}:\d{2}\s*(?:AM|PM)?)\s+(.*?\d{6}(?:,\s*India)?)\s+(.*?\d{6}(?:,\s*India)?)\s+This document is issued"
                     address_match = re.search(address_pattern, document_text, re.IGNORECASE | re.DOTALL)
                     
                     if address_match:
+                        date = address_match.group(1).replace('\n', ' ').strip()
+                        source = address_match.group(2).replace('\n', ' ').strip()
+                        destination = address_match.group(3).replace('\n', ' ').strip()
                         date = address_match.group(1).replace('\n', ' ').strip()
                         source = address_match.group(2).replace('\n', ' ').strip()
                         destination = address_match.group(3).replace('\n', ' ').strip()
@@ -58,10 +65,25 @@ def process_receipts(directory_path):
             receipt_data.append({
                 "exact_file_path": exact_file_path,
                 "date": date,
+                "date": date,
                 "amount": amount,
                 "source": source,
                 "destination": destination
             })
+            
+    # --- NEW: Sorting Logic ---
+    def parse_date_for_sort(date_str):
+        if date_str in ("Not Found", "Error", ""):
+            return datetime.min # Pushes unreadable dates to the bottom
+        try:
+            # Removes st, nd, rd, th so the datetime module can read it
+            clean_date = re.sub(r'(?<=\d)(st|nd|rd|th)', '', date_str)
+            return datetime.strptime(clean_date, '%b %d %Y, %I:%M %p')
+        except ValueError:
+            return datetime.min
+
+    # Sorts the dictionary list descending based on the parsed datetime
+    receipt_data.sort(key=lambda x: parse_date_for_sort(x['date']), reverse=True)
             
     # --- NEW: Sorting Logic ---
     def parse_date_for_sort(date_str):
@@ -85,8 +107,8 @@ def extract_api():
     API Endpoint to trigger the extraction.
     Expects a query parameter: ?directory=path_to_folder
     """
-    # target_directory = request.args.get('directory', '.')
-    payload, status_code = process_receipts("./ext/receipts_rapido")
+    target_directory = request.args.get('directory', '.')
+    payload, status_code = process_receipts(target_directory)
     
     return jsonify(payload), status_code
 
