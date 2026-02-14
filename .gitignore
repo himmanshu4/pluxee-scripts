@@ -1,4 +1,6 @@
 .envvars
 receipts
 pscripts
-server_BETA/ext/receipts_rapido
+server_BETA/receipts_rapido
+AutomationProfile
+chromedriver.log

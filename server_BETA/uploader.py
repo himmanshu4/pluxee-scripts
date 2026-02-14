@@ -7,13 +7,18 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from webdriver_manager.chrome import ChromeDriverManager
 
-# Load Environment Variables
-load_dotenv(".envvars")
+# Robust Environment Loading
+script_dir = os.path.dirname(os.path.abspath(__file__))
+env_file_path = os.path.join(os.path.dirname(script_dir), ".envvars")
+print(f"Loading configuration from: {env_file_path}")
+load_dotenv(env_file_path)
 
 def initialize_chrome_driver():
     """
-    Initializes the Selenium Chrome driver using your exact authenticated profile.
+    Initializes the Selenium Chrome driver strictly for Windows environments,
+    utilizing memory piping and anti-renderer-crash flags.
     """
     chrome_profile_path = os.getenv("CHROME_PROFILE_PATH")
     profile_name = os.getenv("PROFILE_NAME")
@@ -26,16 +31,34 @@ def initialize_chrome_driver():
     print(f"Initializing Chrome with profile: {profile_name} at {chrome_profile_path}")
 
     options = Options()
+    
+    # Profile Binding
     options.add_argument(f"--user-data-dir={chrome_profile_path}")
     options.add_argument(f"--profile-directory={profile_name}")
     options.add_argument("--disable-extensions")
+    
+    # Standard Windows Communication Flag
+    options.add_argument("--remote-allow-origins=*")
+    
+    # --- ADDED: The Ultimate DevTools Bypasses & Anti-Crash Flags ---
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--remote-debugging-pipe") # Bypasses the file system entirely
+    options.add_argument("--disable-gpu") # Disables hardware acceleration preventing the 60s timeout
+    options.add_argument("--disable-features=RendererCodeIntegrity") # Stops Windows from blocking the renderer
+    # ----------------------------------------------------------------
 
+    # Automated Driver Fetching via webdriver-manager
     service = Service(
-        service_args=["--verbose"],
+        executable_path=ChromeDriverManager().install(),
         log_output="chromedriver.log"
     )
 
     driver = webdriver.Chrome(options=options, service=service)
+    
+    # --- ADDED: Tell Python to load pages faster without waiting for heavy background scripts ---
+    driver.page_load_strategy = 'eager' 
+    
     return driver
 
 def automate_pluxee_uploads(api_endpoint, target_directory):
@@ -44,7 +67,8 @@ def automate_pluxee_uploads(api_endpoint, target_directory):
     """
     print("Fetching receipt data from the local API...")
     try:
-        response = requests.get(f"{api_endpoint}?directory={target_directory}")
+        # Safe URL Encoding via the 'params' argument
+        response = requests.get(api_endpoint, params={"directory": target_directory})
         response.raise_for_status()
         receipt_data = response.json().get("receipts", [])
     except Exception as e:
@@ -60,7 +84,7 @@ def automate_pluxee_uploads(api_endpoint, target_directory):
         raise ValueError("PLUXEE_URL is not set in the environment variables.")
 
     driver = initialize_chrome_driver()
-    wait = WebDriverWait(driver, 10)
+    wait = WebDriverWait(driver, 300)
 
     try:
         for index, receipt in enumerate(receipt_data, start=1):
@@ -97,7 +121,6 @@ def automate_pluxee_uploads(api_endpoint, target_directory):
             
             if user_confirmation.strip().lower() == 'y':
                 try:
-                    # Physically removes the file from the operating system
                     os.remove(file_path)
                     print(f"Success: Permanently deleted '{filename}'.")
                 except Exception as e:
@@ -110,17 +133,13 @@ def automate_pluxee_uploads(api_endpoint, target_directory):
         driver.quit()
 
 if __name__ == "__main__":
-    # Define the location of your running Flask API
     LOCAL_API_URL = "http://127.0.0.1:5000/extract"
     
-    # Securely load the directory path from your environment variables
     RECEIPTS_DIRECTORY = os.getenv("RECEIPTS_DIRECTORY")
     
-    # Safety Check
     if not RECEIPTS_DIRECTORY:
         raise ValueError("RECEIPTS_DIRECTORY is not set in the environment variables.")
     
     print(f"Targeting receipts directory: {RECEIPTS_DIRECTORY}")
     
-    # Execute the automation
     automate_pluxee_uploads(LOCAL_API_URL, RECEIPTS_DIRECTORY)
