@@ -4,3 +4,4 @@ pscripts
 server_BETA/receipts_rapido
 AutomationProfile
 chromedriver.log
+*pycache*
