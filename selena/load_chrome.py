@@ -1,6 +1,8 @@
 import os
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
 
 # Read environment variables
 chrome_profile_path = os.getenv("CHROME_PROFILE_PATH")
@@ -23,15 +25,18 @@ options.add_argument(f"--user-data-dir={chrome_profile_path}")
 options.add_argument(f"--profile-directory={profile_name}")
 options.add_argument("--disable-extensions")
 
-from selenium.webdriver.chrome.service import Service
-from selenium import webdriver
 
-service = Service(
-    service_args=["--verbose"],
-    log_output="chromedriver.log"
-)
+service = Service(service_args=["--verbose"], log_output="chromedriver.log")
+service = None
+"""Open a new Chrome window with the specified profile and return the driver instance."""
 
 
-driver = webdriver.Chrome(options=options, service=service)
-print("Chrome driver initialized with specified profile.")
-driver.get("https://www.google.com")
+def open_new_window():
+    global options, service
+    driver = webdriver.Chrome(options=options, service=service)
+    print("Chrome driver initialized with specified profile.")
+    driver.get("https://www.google.com")
+    return driver
+
+
+driver = open_new_window()
