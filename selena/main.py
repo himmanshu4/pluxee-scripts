@@ -14,9 +14,9 @@ def main():
 
 if __name__ == "__main__":
     receipts = main()
-    print("No of receipts",len(receipts.receipts))
+    print("No of receipts", len(receipts.receipts))
     for receipt in receipts.receipts.values():
-        if receipt.amount == None:
+        if receipt.amount is None:
             print(f"# Skipping {receipt.path} due to missing amount.")
             continue
         print(f"# Processing {receipt.path}")

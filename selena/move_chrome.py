@@ -9,7 +9,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
 from pathlib import Path
-from pprint import pprint
 import re
 
 
@@ -79,7 +78,7 @@ class ReceiptManager:
                     extracted = page.extract_text()
                     if extracted:
                         document_text += extracted + "\n"
-                
+
                 # forbidden_phrases = ["421203"]
                 # if any(phrase in document_text for phrase in forbidden_phrases):
                 #     print(f"Skipping {path.name} due to presence of forbidden phrases.")
@@ -128,7 +127,7 @@ class ReceiptManager:
         )
 
     def __repr__(self):
-        return (f"ReceiptManager(receipts={list(self.receipts.values())})")
+        return f"ReceiptManager(receipts={list(self.receipts.values())})"
 
 
 class ReceiptWithChrome(Receipt):
@@ -153,7 +152,7 @@ class ReceiptWithChrome(Receipt):
         wait = WebDriverWait(driver, 10)
         wait.until(EC.visibility_of_element_located((By.ID, "claim-amount")))
         driver.implicitly_wait(0.5)
-        
+
         amount_box = driver.find_element(by=By.ID, value="claim-amount")
         amount_box.send_keys(str(amount))
 
@@ -164,13 +163,11 @@ class ReceiptWithChrome(Receipt):
 
     def submit_claim(self):
         wait = WebDriverWait(driver, 10)
-        if os.getenv("DEBUG","False").upper() == "TRUE":
+        if os.getenv("DEBUG", "False").upper() == "TRUE":
             print("DEBUG mode is on, not submitting claim.")
             return
-        
-        submit_btn = wait.until(
-            EC.presence_of_element_located((By.ID, "submit-claim"))
-        )
+
+        submit_btn = wait.until(EC.presence_of_element_located((By.ID, "submit-claim")))
         driver.execute_script(
             "arguments[0].scrollIntoView({block: 'center'});", submit_btn
         )
@@ -182,22 +179,21 @@ class ReceiptWithChrome(Receipt):
         pluxee_url = os.getenv("PLUXEE_URL")
         driver.get("https://google.com")
         driver.get(pluxee_url)
-        
+
         self.set_web_amount(int(self.amount))
         self.upload_file(self.path)
         self.submit_claim()
 
-
     def upload_mobile_bill(self, mobile_number: str):
         wait = WebDriverWait(driver, 10)
         pluxee_url = os.getenv("PLUXEE_MOBILE_URL")
-        
+
         driver.get("https://google.com")
         driver.get(pluxee_url)
-        
+
         self.set_web_amount(int(self.amount))
         self.upload_file(self.path)
-        
+
         wait.until(
             EC.presence_of_element_located(
                 (By.XPATH, f"//*[contains(text(), '{mobile_number}')]")
