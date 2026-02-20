@@ -1,0 +1,388 @@
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17577402834781152.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17652759612821124.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/CAB_RECEIPT_RD17563098485376330.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17598329462885493.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17703752542378113.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/CAB_RECEIPT_RD17583886714040457.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17694868620746062.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/CAB_RECEIPT_RD17562802015724046.pdf
+# Skipping /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/ORDER_INVOICE_RD17611396179554806.pdf due to missing amount.
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17682783594980596.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17682783594980596.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17577566974868248.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17577566974868248.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17603528920291327.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17603528920291327.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17567032631208034.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17567032631208034.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17573080519951202.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17573080519951202.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17685735596388876.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17685735596388876.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17634619960761074.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17634619960761074.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17604697830751745.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17604697830751745.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17692425966094540.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17692425966094540.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/RECEIPT_RD17664028802901107.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/RECEIPT_RD17664028802901107.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17682135378323854.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17682135378323854.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17699644135192508.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17699644135192508.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/CAB_RECEIPT_RD17560572721922567.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/CAB_RECEIPT_RD17560572721922567.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17633545560346890.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17633545560346890.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17664003741032847.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17664003741032847.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17592334423885616.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17592334423885616.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17676732391328550.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17676732391328550.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17709577317715479.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17709577317715479.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17597349747235708.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17597349747235708.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17574156129148658.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17574156129148658.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17627495242624152.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17627495242624152.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/RECEIPT_RD17704730455770755.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/RECEIPT_RD17704730455770755.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17671637419101193.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17671637419101193.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17639563506401127.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17639563506401127.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17591204139399283.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17591204139399283.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17658486344667135.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17658486344667135.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17579981870479919.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17579981870479919.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17583593182749308.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17583593182749308.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17621408329627618.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17621408329627618.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17628327457917539.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17628327457917539.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17591452406180833.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17591452406180833.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17706350776301663.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17706350776301663.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17633755753956816.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17633755753956816.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17580211184716376.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17580211184716376.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17664549020457684.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17664549020457684.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17663788345123573.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17663788345123573.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17672929278872117.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17672929278872117.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/RECEIPT_RD17641332428772214.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/RECEIPT_RD17641332428772214.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17573268396887073.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17573268396887073.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17634387367960895.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17634387367960895.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/CAB_RECEIPT_RD17710180499012247.pdf
+
+# Skipping /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/ORDER_INVOICE_RD17611396179554806.pdf due to missing amount.
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/CAB_RECEIPT_RD17710180499012247.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/CAB_RECEIPT_RD17710180499012247.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17597484377634451.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17597484377634451.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17585362151170101.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17585362151170101.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17640345321057828.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17640345321057828.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17652594864399377.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17652594864399377.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17653717455744976.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17653717455744976.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17622532836022566.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17622532836022566.pdf
+# Skipping /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/ORDER_INVOICE_RD17611501252093805.pdf due to missing amount.
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17622318552130773.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17622318552130773.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17640793417109047.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17640793417109047.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17567875336846726.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17567875336846726.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17695189778759637.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17695189778759637.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17627714698775468.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17627714698775468.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17689062889217683.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17689062889217683.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/RECEIPT_RD17663217204121899.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/RECEIPT_RD17663217204121899.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17566521337792303.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17566521337792303.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17688823342236826.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17688823342236826.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17598108367475141.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17598108367475141.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17675875142690695.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17675875142690695.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17700334944692195.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17700334944692195.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17706112583683681.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17706112583683681.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/RECEIPT_RD17641238244469267.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/RECEIPT_RD17641238244469267.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17621849245069634.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17621849245069634.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17643546518004204.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17643546518004204.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17646717975138421.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17646717975138421.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17572715973100075.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17572715973100075.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/RECEIPT_RD17663364785264491.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/RECEIPT_RD17663364785264491.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/RECEIPT_RD17681429747682025.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/RECEIPT_RD17681429747682025.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17604147238632344.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17604147238632344.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17703516385930027.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17703516385930027.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17651633261157248.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17651633261157248.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17592056210476393.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17592056210476393.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17700065289581974.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17700065289581974.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17704514920621451.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17704514920621451.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17676959057938487.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17676959057938487.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/RECEIPT_RD17673865784952752.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/RECEIPT_RD17673865784952752.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17646480579945611.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17646480579945611.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17688023474421159.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17688023474421159.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17573909927308746.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17573909927308746.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17567224910971975.pdf
+
+# Skipping /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/ORDER_INVOICE_RD17611396179554806.pdf due to missing amount.
+# Skipping /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/ORDER_INVOICE_RD17611501252093805.pdf due to missing amount.
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17567224910971975.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17567224910971975.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17562036629523337.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17562036629523337.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17657726486531022.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17657726486531022.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17620293075817525.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17620293075817525.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17709790008804560.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17709790008804560.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17645865459297420.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17645865459297420.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17568072298271964.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17568072298271964.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17585161369578447.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17585161369578447.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17561840019174674.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17561840019174674.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17603280327933278.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17603280327933278.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17572609521233235.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17572609521233235.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/CAB_RECEIPT_RD17565949777971949.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/CAB_RECEIPT_RD17565949777971949.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/CAB_RECEIPT_RD17563205644299105.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/CAB_RECEIPT_RD17563205644299105.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17683112109008607.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17683112109008607.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17639806192211478.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17639806192211478.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17688834699975237.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17688834699975237.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17688187735151330.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17688187735151330.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17709967334335278.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17709967334335278.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17645614532182811.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17645614532182811.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17651898059184617.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17651898059184617.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17628576722878293.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17628576722878293.pdf
+
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17637315730939817.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17637315730939817.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17440867747987003.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17440867747987003.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17459336448734647.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17459336448734647.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17530738001012696.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17530738001012696.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/RECEIPT_RD17661441385946507.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/RECEIPT_RD17661441385946507.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17524891526658992.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17524891526658992.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17495517232412168.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17495517232412168.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17452070972603784.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17452070972603784.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17712378994065723.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17712378994065723.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17494431995873339.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17494431995873339.pdf
+# Skipping /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/ORDER_INVOICE_RD17611396179554806.pdf due to missing amount.
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17489247039700732.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17489247039700732.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17464191256529293.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17464191256529293.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17518842538338042.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17518842538338042.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17518006639248955.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17518006639248955.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17458354110566750.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17458354110566750.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17464474134879377.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17464474134879377.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17560974098016658.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17560974098016658.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17500483727242110.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17500483727242110.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17556082744766140.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17556082744766140.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17525533592005281.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17525533592005281.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/RECEIPT_RD17661392734446539.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/RECEIPT_RD17661392734446539.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17531588331785363.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17531588331785363.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17452326787919426.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17452326787919426.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17561177254073835.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17561177254073835.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17712166922116518.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17712166922116518.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17452944806202048.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17452944806202048.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17494709643664352.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17494709643664352.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17507385444591533.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17507385444591533.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17519483512812743.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17519483512812743.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17512583857267983.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17512583857267983.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17549080638471462.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17549080638471462.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17446286880603150.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17446286880603150.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17555779783552642.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17555779783552642.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/CAB_RECEIPT_RD17511322713830355.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/CAB_RECEIPT_RD17511322713830355.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17461075504231321.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17461075504231321.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17510937184437405.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17510937184437405.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17542826604607092.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17542826604607092.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17524682494813032.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17524682494813032.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17446906729154102.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17446906729154102.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17495281576696414.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17495281576696414.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17530965154269882.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17530965154269882.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17475148231780782.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17475148231780782.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17482588291776735.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17482588291776735.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17501371416446210.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17501371416446210.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17518633405604679.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17518633405604679.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17483201977563730.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17483201977563730.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17555142896476272.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17555142896476272.pdf
+# Skipping /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/ORDER_INVOICE_RD17611501252093805.pdf due to missing amount.
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17549673215655394.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17549673215655394.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17434807657011503.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17434807657011503.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17437655345008312.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17437655345008312.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17531802851230499.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17531802851230499.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17453778301756862.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17453778301756862.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17488398830146857.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17488398830146857.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17519708146278329.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17519708146278329.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17465034964278303.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17465034964278303.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17463401585588097.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17463401585588097.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17554915730439284.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17554915730439284.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17537850670245105.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17537850670245105.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17507711583967765.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17507711583967765.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17512804724084127.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17512804724084127.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17501553786052277.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17501553786052277.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17458996501914469.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17458996501914469.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17457622570249314.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17457622570249314.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17483460060803134.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17483460060803134.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17506544393212611.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17506544393212611.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17439621417258351.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17439621417258351.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17536764231891973.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17536764231891973.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17543903277042833.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17543903277042833.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17536992124958901.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17536992124958901.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17488633090442895.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17488633090442895.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17465657305672234.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17465657305672234.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17482343697828987.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17482343697828987.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17537640820503012.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17537640820503012.pdf
+# Skipping /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/ORDER_INVOICE_RD17474125893263490.pdf due to missing amount.
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17440252392068388.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17440252392068388.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17543139391560592.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17543139391560592.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17440006049750012.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17440006049750012.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17525753523019562.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17525753523019562.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17435036147571578.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17435036147571578.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17543689370216543.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17543689370216543.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/RECEIPT_RD17637418593979506.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/RECEIPT_RD17637418593979506.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17458136227736830.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17458136227736830.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17548864486140631.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17548864486140631.pdf
+# Processing /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17446005496081573.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/AUTO_RECEIPT_RD17446005496081573.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/ORDER_INVOICE_RD17474125893263490.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/ORDER_INVOICE_RD17611396179554806.pdf
+rm /home/himanshu/workDesk/pluxee-scripts/receipts/pdf/ORDER_INVOICE_RD17611501252093805.pdf

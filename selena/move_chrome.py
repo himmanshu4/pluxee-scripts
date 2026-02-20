@@ -1,5 +1,6 @@
 from enum import Enum
 import os
+from time import sleep
 
 import pdfplumber
 from load_chrome import driver
@@ -38,7 +39,7 @@ initialization requires the directory path where receipts are stored, and it wil
 
 class ReceiptManager:
     def __init__(self, receipt_dir):
-        self.receipts = {}
+        self.receipts = dict[str, ReceiptWithChrome]()
         if not isinstance(receipt_dir, Path):
             receipt_dir = Path(receipt_dir)
         self.parse_directory(receipt_dir)
@@ -78,6 +79,11 @@ class ReceiptManager:
                     extracted = page.extract_text()
                     if extracted:
                         document_text += extracted + "\n"
+                
+                # forbidden_phrases = ["421203"]
+                # if any(phrase in document_text for phrase in forbidden_phrases):
+                #     print(f"Skipping {path.name} due to presence of forbidden phrases.")
+                #     return None
 
                 # Extract Amount
                 amount_match = re.search(
@@ -111,9 +117,9 @@ class ReceiptManager:
                     ).strip()
 
         except Exception as execution_error:
-            amount = "Error"
+            amount = None
             source = f"File reading error: {execution_error}"
-        return Receipt(
+        return ReceiptWithChrome(
             amount=amount,
             path=str(path),
             source=source,
@@ -122,10 +128,10 @@ class ReceiptManager:
         )
 
     def __repr__(self):
-        return pprint(f"ReceiptManager(receipts={list(self.receipts.values())})")
+        return (f"ReceiptManager(receipts={list(self.receipts.values())})")
 
 
-class ReceiptwithChrome(Receipt):
+class ReceiptWithChrome(Receipt):
     def wait_for_keyword_cycle(self, keyword, timeout=30):
         wait = WebDriverWait(driver, timeout)
 
@@ -143,45 +149,55 @@ class ReceiptwithChrome(Receipt):
             )
         )
 
-    def upload_fuel_bill(self, amt: int, file_path: str):
+    def set_web_amount(self, amount: int):
         wait = WebDriverWait(driver, 10)
+        wait.until(EC.visibility_of_element_located((By.ID, "claim-amount")))
+        driver.implicitly_wait(0.5)
+        
+        amount_box = driver.find_element(by=By.ID, value="claim-amount")
+        amount_box.send_keys(str(amount))
 
+    def upload_file(self, file_path: str):
+        file_input = driver.find_element(By.ID, "import-img")
+        file_input.send_keys(file_path)
+        self.wait_for_keyword_cycle("rocessed")
+
+    def submit_claim(self):
+        wait = WebDriverWait(driver, 10)
+        if os.getenv("DEBUG","False").upper() == "TRUE":
+            print("DEBUG mode is on, not submitting claim.")
+            return
+        
+        submit_btn = wait.until(
+            EC.presence_of_element_located((By.ID, "submit-claim"))
+        )
+        driver.execute_script(
+            "arguments[0].scrollIntoView({block: 'center'});", submit_btn
+        )
+        wait.until(EC.element_to_be_clickable((By.ID, "submit-claim")))
+        submit_btn.click()
+        sleep(5)
+
+    def upload_fuel_bill(self):
         pluxee_url = os.getenv("PLUXEE_URL")
-
         driver.get("https://google.com")
         driver.get(pluxee_url)
-        wait.until(EC.visibility_of_element_located((By.ID, "claim-amount")))
-        driver.implicitly_wait(0.5)
+        
+        self.set_web_amount(int(self.amount))
+        self.upload_file(self.path)
+        self.submit_claim()
 
-        amount_box = driver.find_element(by=By.ID, value="claim-amount")
-        amount_box.send_keys(str(amt))
 
-        file_input = driver.find_element(By.ID, "import-img")
-        file_input.send_keys(file_path)
-        self.wait_for_keyword_cycle(driver, "rocessed")
-        # time.sleep(5)
-        # driver.find_element(By.ID, "submit-claim").click()
-
-    def upload_mobile_bill(
-        self, amt: int, file_path: str, mobile_number: str, submit: bool = False
-    ):
+    def upload_mobile_bill(self, mobile_number: str):
         wait = WebDriverWait(driver, 10)
-
         pluxee_url = os.getenv("PLUXEE_MOBILE_URL")
-
+        
         driver.get("https://google.com")
         driver.get(pluxee_url)
-        wait.until(EC.visibility_of_element_located((By.ID, "claim-amount")))
-        driver.implicitly_wait(0.5)
-
-        amount_box = driver.find_element(by=By.ID, value="claim-amount")
-        amount_box.send_keys(str(amt))
-
-        # pdb.set_trace()
-        file_input = driver.find_element(By.ID, "import-img")
-        file_input.send_keys(file_path)
-        self.wait_for_keyword_cycle(driver, "rocessed")
-        # sleep(2)
+        
+        self.set_web_amount(int(self.amount))
+        self.upload_file(self.path)
+        
         wait.until(
             EC.presence_of_element_located(
                 (By.XPATH, f"//*[contains(text(), '{mobile_number}')]")
@@ -191,25 +207,7 @@ class ReceiptwithChrome(Receipt):
             By.XPATH, f"//*[contains(text(), '{mobile_number}')]"
         )
         num_input.click()
-        if os.getenv("DEBUG").upper() == "TRUE":
-            print("DEBUG mode is on, not submitting claim.")
-        else:
-            submit_btn = wait.until(
-                EC.presence_of_element_located((By.ID, "submit-claim"))
-            )
-
-            driver.execute_script(
-                "arguments[0].scrollIntoView({block: 'center'});", submit_btn
-            )
-
-            wait.until(EC.element_to_be_clickable((By.ID, "submit-claim")))
-            wait.until(
-                EC.presence_of_element_located(
-                    (By.XPATH, "//*[contains(text(), 'to be processed')]")
-                )
-            )
-
-            submit_btn.click()
+        self.submit_claim()
 
 
 if __name__ == "__main__":
