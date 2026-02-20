@@ -7,28 +7,9 @@ from load_chrome import driver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-
+from CommonTypes import Receipt, ReceiptType
 from pathlib import Path
 import re
-
-
-class Receipt:
-    def __init__(self, amount, path, source=None, destination=None, date=None):
-        self.amount = amount
-        self.path = path
-        self.source = source
-        self.destination = destination
-        self.date = date
-
-    def __repr__(self):
-        return f"amount={self.amount}, path='{self.path}', source='{self.source}', destination='{self.destination}', date='{self.date}')"
-
-    def __hash__(self):
-        return hash(self.path)
-
-
-class ReceiptType(Enum):
-    Rapido = "Rapido"
 
 
 """Manager class to handle receipt parsing and storage.
